@@ -5,7 +5,7 @@ import os
 json = gs.service_account(filename='json file name')#connect to google sheet account
 opensheet = json.open("google sheet file name").sheet1#open  google sheet file
 hostname = soc.gethostname()#your pc hostname name
-
+ 
 #lists
 row = opensheet.row_values("1")
 list = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
